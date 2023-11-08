@@ -11,3 +11,57 @@
 html {
     font-family: 'Open Sans', sans-serif;
 }
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container-big {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.container-small {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.tasto-principale a {
+    font-size: 12px;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: #0260FF;
+    padding: 7px 14px;
+
+}
+
+/* HEADER */
+
+.menu-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.menu-nav nav ul li {
+    display: inline;
+}
+
+.menu-nav nav ul li a {
+    color: black;
+    font-size: 12px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+}
+
+.menu-nav img {
+    width: 115px;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+/* DEBUG */
+
