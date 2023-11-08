@@ -13,7 +13,7 @@ html {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
 }
 
@@ -23,7 +23,7 @@ html {
 }
 
 .container-small {
-    max-width: 1000px;
+    max-width: 900px;
     margin: 0 auto;
 }
 
@@ -35,6 +35,13 @@ html {
     background-color: #0260FF;
     padding: 7px 14px;
 
+}
+
+.tasto-no-background a {
+    font-size: 12px;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
 }
 
 /* HEADER */
@@ -63,5 +70,60 @@ html {
     vertical-align: middle;
 }
 
+/* MAIN */
+
+#jumbotron .container {
+    position: relative;
+    height: 400px;
+}
+
+.jumbotron-container {
+    position: absolute;
+    width: 100%;
+    top: 50px;
+}
+
+#jumbotron {
+    background-color:#B4D0E7;
+    min-height: 550px;
+
+}
+
+.jumbotron-container h1 {
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.jumbotron-text-image {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.jumbotron-text-image .jumbotron-text {
+    width: 35%;
+}
+
+.jumbotron-text-image .jumbotron-text .tasto-principale {
+    padding-bottom: 30px;    
+}
+
+.jumbotron-text-image .jumbotron-text p {
+    padding-bottom: 20px;    
+}
+
+.jumbotron-text-image .jumbotron-image {
+    width: 65%;
+}
+
+.jumbotron-text-image .jumbotron-image img{
+    width: 100%;
+}
+
+.jumbotron-text-image i {
+    margin-top: 50px;
+}
+
 /* DEBUG */
+
 
