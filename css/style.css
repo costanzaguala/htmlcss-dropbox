@@ -10,6 +10,7 @@
 
 html {
     font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
 }
 
 .container {
@@ -28,7 +29,6 @@ html {
 }
 
 .tasto-principale a {
-    font-size: 13px;
     display: inline-block;
     text-decoration: none;
     color: white;
@@ -38,14 +38,12 @@ html {
 }
 
 .tasto-no-background a {
-    font-size: 13px;
     display: inline-block;
     color: black;
     text-decoration: none;
 }
 
 .tasto-secondario a {
-    font-size: 13px;
     display: inline-block;
     text-decoration: none;
     color: black;
@@ -67,7 +65,6 @@ html {
 
 .menu-nav nav ul li a {
     color: black;
-    font-size: 12px;
     text-decoration: none;
     display: inline-block;
     padding: 10px;
@@ -133,7 +130,7 @@ html {
 }
 
 .jumbotron-text-image i {
-    margin-top: 50px;
+    margin-top: 85px;
 }
 
 /* FINE JUMBOTRON */
@@ -151,7 +148,7 @@ html {
 #sezione-1 .container-small .radio-button * {
     font-size: 11px;
     padding-right: 40px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 #piani {
@@ -183,7 +180,6 @@ html {
 #piani .costo {
     font-weight: bold; 
     padding: 10px 0;
-    font-size: 12px;
 }
 
 #piani .info-piano * {
@@ -193,11 +189,6 @@ html {
 
 #piani .info-costo {
     color: gray;
-    font-size: 12px;
-}
-
-#piani .caratteristiche, .caratteristiche-2, .acquista-ora{
-    font-size: 12px;
 }
 
 #piani .caratteristiche  {
@@ -251,9 +242,6 @@ html {
     width: 35;
 }
 
-.piano-enterprise p {
-    font-size: 12px;
-}
 
 /* FINE SEZIONE 1 */
 
@@ -283,18 +271,44 @@ html {
 
 /* FINE SEZIONE 2 */
 
+/* INIZIO SEZIONE 3 GRID */
+
+#grid {
+    padding-top: 100px;
+}
+
+#grid h2 {
+    font-size: 30px;
+}
+
+.grid-item {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 20px;
+}
+
+#grid img {
+    width: 100%;
+}
+
+.grid-item > * {
+    width: calc(85% / 3);
+}
+
+.grid-item  * {
+    padding: 10px 0;
+
+}
+
+/* FINE SEZIONE 3 GRID */
 
 /* DEBUG */
-
-
-/* .debug #text-image {
+/* 
+.grid-box {
     background-color: aqua;
 }
 
-.debug .sezione-grande {
-    background-color: rgb(213, 141, 196);
-}
-
-.debug .sezione-piccola {
-    background-color: green;
+.grid-item {
+    background-color: pink;
 } */
