@@ -342,6 +342,39 @@ h2 {
 
 /* FINE SEZIONE 4 */
 
+/* INIZIO SEZIONE 5 */
+
+/* .grid-layout {
+    display: flex;
+    justify-content: center;
+}
+
+.grid-interno {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.grid {
+    width: calc(100% / 3);
+    height: calc(100vw / 3);
+}
+
+.grid-interno > .div {
+    width: 50%;;
+    height: 50%;
+}
+
+.grid-interno > .img {
+max-width:min-content;}
+
+.debug .grid-interno {
+    background-color: aqua;
+} */
+
+
+/* FINE SEZIONE 5 */
+
 /* INIZIO SEZIONE 6 */
 
 #accent-section {
