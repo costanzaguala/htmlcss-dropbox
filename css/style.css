@@ -13,6 +13,10 @@ html {
     font-size: 14px;
 }
 
+h2 {
+    font-size: 30px;
+}
+
 .container {
     max-width: 1000px;
     margin: 0 auto;
@@ -48,6 +52,15 @@ html {
     text-decoration: none;
     color: black;
     border: 1px solid black;
+    padding: 7px 14px;
+}
+
+.tasto-tre a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border: none;
     padding: 7px 14px;
 }
 
@@ -281,10 +294,6 @@ html {
     padding-top: 100px;
 }
 
-#grid h2 {
-    font-size: 30px;
-}
-
 .grid-item {
     display: flex;
     justify-content: space-between;
@@ -324,7 +333,6 @@ html {
 }
 
 #sezione-quote h2 {
-    font-size: 30px;
     padding-bottom: 40px;
 }
 
@@ -334,12 +342,113 @@ html {
 
 /* FINE SEZIONE 4 */
 
-/* DEBUG */
-/* 
-.grid-box {
-    background-color: aqua;
+/* INIZIO SEZIONE 6 */
+
+#accent-section {
+    display: flex;
+    justify-content: space-between;
 }
 
-.grid-item {
+#accent-section .sezione-grande {
+    width: 65%;
+}
+
+#accent-section .sezione-piccola {
+    width: 35%;
+}
+
+#accent-section h2 {
+    color: #62092B;
+}
+
+#sezione-4 .container-small {
+    padding: 90px 0;
+}
+
+#sezione-4 .container-big {
+    background-color: #B4D0E7;
+}
+
+/* FINE SEZIONE 6 */
+
+/* INIZIO SEZIONE 7 */
+
+#faq-container {
+    padding: 50px 0;
+}
+
+#faq-container h2 {
+    padding-bottom: 20px;
+}
+
+.faq p {
+    padding: 20px 0;
+    border-top: 1px solid black;
+}
+
+.faq {
+    position: relative;
+    padding: 50px 0;
+}
+
+i.fa-solid.fa-chevron-down {
+    position: absolute;
+    right: 10px;
+}
+/* FINE SEZIONE 7 */
+
+/* INIZIO FOOTER */
+
+footer .container-big {
+    background-color: black;
+    padding: 20px 0;
+
+}
+
+.footer-section ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+.footer-section ul li {
+    padding: 5px 0;
+    list-style: none;
+}
+
+.footer-section h3 {
+    color: white;
+    padding: 10px 0;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.footer-section hr {
+    margin: 50px 0;
+    width: 80%;
+    border: 0.1px solid #E5E5E7;
+}
+
+.selettore-lingua > * {
+    color: white;
+    padding: 0 3px;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.selettore-lingua {
+    padding-bottom: 20px;
+}
+
+/* FINE FOOTER */
+
+/* DEBUG */
+
+/* 
+.debug .column-nav {
     background-color: pink;
 } */
