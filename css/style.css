@@ -205,6 +205,10 @@ html {
     min-height: 180px
 }
 
+#piani .acquista-ora a {
+    color: #0260FF;
+}
+
 #piani .tasto-principale, .acquista-ora {
     padding: 10px 0;
 }
@@ -302,6 +306,33 @@ html {
 }
 
 /* FINE SEZIONE 3 GRID */
+
+/* INIZIO SEZIONE 4 */
+
+#sezione-quote {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+#sezione-quote .sezione-grande {
+    width: 65%;
+}
+
+#sezione-quote .sezione-piccola {
+    width: 35%;
+}
+
+#sezione-quote h2 {
+    font-size: 30px;
+    padding-bottom: 40px;
+}
+
+#sezione-quote a {
+    color: #0260FF;
+}
+
+/* FINE SEZIONE 4 */
 
 /* DEBUG */
 /* 
