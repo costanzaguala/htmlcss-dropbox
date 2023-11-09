@@ -72,9 +72,12 @@ html {
 
 /* MAIN */
 
+/* INIZIO JUMBOTRON */
+
 #jumbotron .container {
     position: relative;
-    height: 400px;
+    height: 550px;
+    margin-bottom: 50px;
 }
 
 .jumbotron-container {
@@ -124,6 +127,134 @@ html {
     margin-top: 50px;
 }
 
+/* FINE JUMBOTRON */
+
+/* INIZIO SEZIONE 1 */
+
+#sezione-1 .container-small {
+    padding-top: 70px;
+}
+
+#sezione-1 .container-small h2 {
+    margin-bottom: 40px;
+}
+
+#sezione-1 .container-small .radio-button * {
+    font-size: 11px;
+    padding-right: 40px;
+    margin-bottom: 30px;
+}
+
+#piani {
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+}
+
+#piani > * {
+    width: 30%;
+    margin-bottom: 50px;
+    border: 1px solid #E5E5E7;
+}
+
+#piani > *:last-child {
+    width: 100%;
+}
+
+.padding-piano {
+    padding: 20px;
+}
+
+#piani .label-piano {
+    text-align: center;
+    border-bottom: 1px solid #E5E5E7;
+    padding: 10px;
+}
+
+#piani .costo {
+    font-weight: bold; 
+    padding: 10px 0;
+    font-size: 12px;
+}
+
+#piani .info-piano * {
+    padding: 5px 0;
+
+}
+
+#piani .info-costo {
+    color: gray;
+    font-size: 12px;
+}
+
+#piani .caratteristiche, .caratteristiche-2, .acquista-ora{
+    font-size: 12px;
+}
+
+#piani .caratteristiche  {
+    padding-top: 30px;
+}
+
+#piani .caratteristiche ul li {
+    list-style: none;
+    padding: 8px 0;
+    text-align: left;
+}
+
+#piani .caratteristiche {
+    min-height: 180px
+}
+
+#piani .tasto-principale, .acquista-ora {
+    padding: 10px 0;
+}
+
+#piani hr {
+    margin: 30px 0 ;
+    width: 40px;
+    border: 1px solid #E5E5E7;
+}
+
+#piani .caratteristiche-2 p {
+    font-weight: bold;
+}
+
+#piani .caratteristiche-2 ul li {
+    list-style: none;
+    padding: 10px 0;
+}
+
+#piani .caratteristiche-2 ul li i {
+    color: #0260FF;;
+}
+
+.piano-enterprise {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.piano-enterprise .sezione-grande {
+    width: 65%;
+}
+
+.piano-enterprise .sezione-piccola {
+    width: 35;
+}
+
+.piano-enterprise p {
+    font-size: 12px;
+}
+
+/* FINE SEZIONE 1 */
+
 /* DEBUG */
 
 
+/* .debug .piano-enterprise .sezione-grande {
+    background-color: aqua;
+}
+
+.debug .piano-enterprise .sezione-piccola {
+    background-color: pink;
+} */
